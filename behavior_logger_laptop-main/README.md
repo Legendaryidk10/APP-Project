@@ -134,9 +134,6 @@ Both UIs connect to the MySQL database using these settings:
 - MySQL 8.0+
 - Java JVM for JDBC connections
 
-## from the repo root
-cd C:\Users\Ananya\behavior_logger\java
-
 # compile (include connector + chart jars)
 javac -cp ".;lib\mysql-connector-j-9.4.0.jar;lib\jfreechart-1.5.3.jar;lib\jcommon-1.0.24.jar" *.java
 
